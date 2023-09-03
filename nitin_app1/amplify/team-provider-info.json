@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-nitinapp1-dev-181453-authRole",
+      "UnauthRoleArn": "arn:aws:iam::593252889486:role/amplify-nitinapp1-dev-181453-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::593252889486:role/amplify-nitinapp1-dev-181453-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-nitinapp1-dev-181453-deployment",
+      "UnauthRoleName": "amplify-nitinapp1-dev-181453-unauthRole",
+      "StackName": "amplify-nitinapp1-dev-181453",
+      "StackId": "arn:aws:cloudformation:us-east-1:593252889486:stack/amplify-nitinapp1-dev-181453/b80f6190-4a57-11ee-8c0a-12de146f18ed",
+      "AmplifyAppId": "dhe7jqqc9oq4h"
+    },
+    "categories": {
+      "auth": {
+        "nitinapp122a60a7a": {}
+      },
+      "analytics": {
+        "nitinapp1": {}
+      }
+    }
+  }
+}

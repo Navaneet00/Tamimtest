@@ -1,0 +1,21 @@
+{
+    "appName": "nitinapp1",
+    "roleName": "pinpointLambdaRole75322b85",
+    "cloudformationPolicyName": "cloudformationPolicy75322b85",
+    "cloudWatchPolicyName": "cloudWatchPolicy75322b85",
+    "pinpointPolicyName": "pinpointPolicy75322b85",
+    "authPolicyName": "pinpoint_amplify_75322b85",
+    "unauthPolicyName": "pinpoint_amplify_75322b85",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}
